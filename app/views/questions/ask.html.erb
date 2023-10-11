@@ -1,0 +1,10 @@
+<div class='container'>
+  <h1 class="my-4">stupid coaching</h1>
+
+  <form class="mt-4" action="/answer" method="get" data-turbo="false">
+      <div><label for="question">Ask your coach Anything</label></div>
+      <input type="text" name="question" value="<%= params[:question]%>">
+      <input class="btn btn-primary" type="submit" value="Ask!">
+
+  </form>
+</div>
